@@ -57,3 +57,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Breakdown-schets(en):**
 
 images/breakdown.jpg
+<img src="images/breakdown.jpg">
