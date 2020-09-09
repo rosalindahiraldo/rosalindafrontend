@@ -1,5 +1,140 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/*navigatie*/
+.nav-bar {
+  background-color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: block;
+  text-decoration: none;
 }
 
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar .home-link img {
+  max-height: 115px;
+}
+
+/* Body */
+body {
+  background-image: url(../images/background.jpg);
+  margin: 0;
+}
+
+/* Container */
+.container {
+  margin: 0 auto;
+  width: 95vw;
+}
+
+/* Hero */
+#hero {
+  margin-bottom: 2em;
+}
+
+#hero .hero-background {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/backgrounds/image-thumb__14126__BackgroundImage/367791~-~media--36d9dbc4--query.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#hero .hero-caroussel {
+  margin-top: -100px;
+}
+
+#hero .hero-caroussel .caroussel-image {
+  height: 300px;
+  width: 100%;
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/hero/image-thumb__87678__HeroTeaser/OET%20YIP%20HeroTeaser%201928x728%2002~-~media--cac93fe4--query.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#hero .hero-caroussel .caroussel-content {
+  background: white;
+  padding: 2em;
+}
+#hero .hero-caroussel .caroussel-content h3 {
+  margin: 0;
+}
+
+/* Nieuwskaartjes */
+
+#news .card-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#news .card-list .card {
+  background: white;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+#news .card-list .card article {
+  padding: 1.5em;
+}
+
+/* Element classes */
+
+.link {
+  color: #8c7256;
+  text-decoration: none;
+  font-size: 24px;
+}
+.link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.heading1 {
+  font-size: 34px;
+}
+.heading2 {
+  font-size: 30px;
+}
+.heading3 {
+  font-size: 28px;
+}
+.heading4 {
+  font-size: 26px;
+}
+.heading5 {
+  font-size: 24px;
+}
+
+.paragraph {
+  font-size: 24px;
+}
+
+.with-dropshadow {
+  box-shadow: 0px 3px 9px -2px rgba(0, 0, 0, 0.65);
+}
+
+/* Footer */
+footer {
+  background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-caroussel {
+    display: flex;
+  }
+}
