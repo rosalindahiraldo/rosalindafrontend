@@ -53,6 +53,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je opdracht:** https://www.oetker.nl/nl-nl/index
 
 **Screenshot(s):**
+<img src="images/screenshot-desktop.jpg">
+<img src="images/screenshot-mobile.jpg">
 
 **Breakdown-schets(en):**
 
