@@ -33,6 +33,7 @@
 body {
   background-image: url(../images/background.jpg);
   margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* Container */
@@ -77,18 +78,34 @@ body {
 
 /* Nieuwskaartjes */
 
-#news .card-list {
+.card-list {
   list-style: none;
   padding-left: 0;
 }
 
-#news .card-list .card {
+.card-list .card {
   background: white;
-  display: flex;
+  display: grid;
   margin-bottom: 2em;
 }
 
-#news .card-list .card article {
+.card-list .card.is-row {
+  grid-template-columns: 35% auto;
+}
+
+.card-list .card.is-column {
+  grid-template-columns: 1fr;
+}
+
+.card-list .card picture img {
+  width: 100%;
+}
+
+.card-list .card picture img.large {
+  height: 160px;
+}
+
+.card-list .card article {
   padding: 1.5em;
 }
 
@@ -97,31 +114,41 @@ body {
 .link {
   color: #8c7256;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1rem;
 }
 .link:hover {
   color: black;
   text-decoration: underline;
 }
 
+.label {
+  display: block;
+  margin-bottom: -25px;
+}
+
 .heading1 {
   font-size: 34px;
+  font-family: "EB Garamond", serif;
 }
 .heading2 {
   font-size: 30px;
+  font-family: "EB Garamond", serif;
 }
 .heading3 {
   font-size: 28px;
+  font-family: "EB Garamond", serif;
 }
 .heading4 {
   font-size: 26px;
+  font-family: "EB Garamond", serif;
 }
 .heading5 {
-  font-size: 24px;
+  font-size: 1rem;
+  font-family: "EB Garamond", serif;
 }
 
 .paragraph {
-  font-size: 24px;
+  font-size: 1rem;
 }
 
 .with-dropshadow {
@@ -131,6 +158,42 @@ body {
 /* Footer */
 footer {
   background-color: white;
+}
+
+footer #teaser-grid ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding-left: 0;
+}
+
+footer #teaser-grid ul li {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+footer #teaser-grid ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+footer #teaser-grid ul li a picture img {
+  max-width: 75px;
+}
+footer #teaser-grid ul li a h5 {
+  margin: 0 0 5px 0;
+}
+footer #teaser-grid ul li a span {
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
