@@ -25,8 +25,34 @@
   margin: 0;
 }
 
-.nav-bar .home-link img {
-  max-height: 115px;
+.nav-bar ul li {
+  flex: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar ul li:first-of-type {
+  justify-content: flex-start;
+  padding-left: 1rem;
+}
+.nav-bar ul li:last-of-type {
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.menu-link img {
+  height: 100%;
+  max-height: 20px;
+  margin: auto;
+}
+
+.home-link img {
+  height: 100%;
+  max-height: 50px;
+}
+.search-link img {
+  height: 100%;
+  max-height: 20px;
 }
 
 /* Body */
@@ -53,7 +79,7 @@ body {
   background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/backgrounds/image-thumb__14126__BackgroundImage/367791~-~media--36d9dbc4--query.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 0px center;
 }
 
 #hero .hero-caroussel {
@@ -85,15 +111,16 @@ body {
 
 .card-list .card {
   background: white;
-  display: grid;
   margin-bottom: 2em;
 }
 
 .card-list .card.is-row {
+  display: grid;
   grid-template-columns: 35% auto;
 }
 
 .card-list .card.is-column {
+  display: grid;
   grid-template-columns: 1fr;
 }
 
@@ -107,6 +134,38 @@ body {
 
 .card-list .card article {
   padding: 1.5em;
+}
+
+.card .background-img {
+  width: 135px;
+  height: 135px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.card .background-img#article-1-background {
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/horizontal/image-thumb__81227__StandardHorizontalTeaser/OET%20Limoncello%20KwarkTrt%20Teaser%20225x225%2001~-~media--cac93fe4--query.jpg");
+}
+
+.card .background-img#article-2-background {
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/horizontal/image-thumb__81227__StandardHorizontalTeaser/OET%20Limoncello%20KwarkTrt%20Teaser%20225x225%2001~-~media--cac93fe4--query.jpg");
+}
+
+.card .background-img#article-3-background {
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/horizontal/image-thumb__81227__StandardHorizontalTeaser/OET%20Limoncello%20KwarkTrt%20Teaser%20225x225%2001~-~media--cac93fe4--query.jpg");
+}
+.card .background-img#article-4-background {
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/hero/image-thumb__87808__HeroTeaser/OET%20PizzaNews%20HeroTeaser%201928x728%2001.jpg");
+  width: 100%;
+}
+.card .background-img#article-5-background {
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/vertical/image-thumb__14142__StandardVerticalTeaser/3333350.jpeg");
+  width: 100%;
+}
+.card .background-img#article-6-background {
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/vertical/image-thumb__14143__StandardVerticalTeaser/2963455.jpeg");
+  width: 100%;
 }
 
 /* Element classes */
@@ -196,8 +255,17 @@ footer #teaser-grid ul li a span {
   margin: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 770px) {
   .hero-caroussel {
     display: flex;
+  }
+  .card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .mobile-wide {
+    grid-column: 1 / span 2;
   }
 }

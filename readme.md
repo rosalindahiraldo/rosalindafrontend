@@ -33,11 +33,13 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 ## Voortgang 1 (week 3)
 
+<img src="images/screenshot_voortgang1.png">
+
 ### Stand van zaken
 
 -Lastig: inkomen met CSS, af en toe moeite met flexbox en grid. JS nog nieet aan begonnen omdat er veel moest gebeuren tijdens de styling.-
 -Goed: HTML en na veel tutotials volgen over CSS ging het beter en had ik flexbox en grid ook onder de knie.-
-
+-Jquery's toevoegen-
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
