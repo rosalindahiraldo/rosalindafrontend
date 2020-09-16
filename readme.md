@@ -35,7 +35,8 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-Lastig: inkomen met CSS, af en toe moeite met flexbox en grid. JS nog nieet aan begonnen omdat er veel moest gebeuren tijdens de styling.-
+-Goed: HTML en na veel tutotials volgen over CSS ging het beter en had ik flexbox en grid ook onder de knie.-
 
 **Screenshot(s):**
 
@@ -43,7 +44,11 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+-Mehmet: 9:20-9:35
+Roos: 9:35-9:50
+Mila: 9:50-10:05
+Tensael: 10:05-10:20
+Tom: 10:20-10:25-
 
 ### Verslag van meeting
 
