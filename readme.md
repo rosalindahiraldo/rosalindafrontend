@@ -29,14 +29,14 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
+<img src="images/voortgang2_desktop.jpg">
+<img src="images/voortgang2_mobiel.jpg">
 ## Voortgang 1 (week 3)
 
 Voortganggesprek: Eerste ul met kwarktaart proberen als background img zodat het plaatje gaat meeschalen. Navigatie verschil tussen mobiel en desktop: wat is het verschil tussen de twe versies.
 
 <img src="images/screenshot_voortgang1.png">
-<img sr="images/voortgang1_desktop.png">
+<img src="images/voortgang1_desktop.png">
 
 ### Stand van zaken
 
