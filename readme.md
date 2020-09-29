@@ -29,14 +29,19 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 ## Voortgang 2 (week 5)
 
+Toevoegen van mediaqueries, responsive maken tussen 3 formaten (mobiel, tablet en desktop) en grid toevoegingen.
+-DESKTOP-
 <img src="images/voortgang2_desktop.jpg">
+-MOBIEL-
 <img src="images/voortgang2_mobiel.jpg">
+
 ## Voortgang 1 (week 3)
 
-Voortganggesprek: Eerste ul met kwarktaart proberen als background img zodat het plaatje gaat meeschalen. Navigatie verschil tussen mobiel en desktop: wat is het verschil tussen de twe versies.
-
-<img src="images/screenshot_voortgang1.png">
+Voortganggesprek (met studentassistenten): Eerste ul met kwarktaart proberen als background img zodat het plaatje gaat meeschalen. Navigatie verschil tussen mobiel en desktop: wat is het verschil tussen de twe versies.
+-DESKTOP-
 <img src="images/voortgang1_desktop.png">
+-MOBIEL-
+<img src="images/screenshot_voortgang1.png">
 
 ### Stand van zaken
 
