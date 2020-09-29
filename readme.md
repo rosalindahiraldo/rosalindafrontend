@@ -11,8 +11,8 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 ## Bronnenlijst
 
-1. -bron 1-
-2. -bron 2-
+1. https://css-tricks.com/almanac/
+2. css - https://www.youtube.com/c/JesseShowalter/
 3. -...-
 
 ## Eindgesprek (week 7/8)
@@ -33,7 +33,10 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 ## Voortgang 1 (week 3)
 
+Voortganggesprek: Eerste ul met kwarktaart proberen als background img zodat het plaatje gaat meeschalen. Navigatie verschil tussen mobiel en desktop: wat is het verschil tussen de twe versies.
+
 <img src="images/screenshot_voortgang1.png">
+<img sr="images/voortgang1_desktop.png">
 
 ### Stand van zaken
 

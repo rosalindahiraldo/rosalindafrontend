@@ -4,6 +4,7 @@
 *::before {
   box-sizing: border-box;
 }
+
 /*navigatie*/
 .nav-bar {
   background-color: white;
@@ -14,6 +15,106 @@
   text-align: center;
   display: block;
   text-decoration: none;
+}
+
+.nav-bar.desktop {
+  display: none;
+  padding-bottom: 1em;
+}
+
+.nav-bar.desktop .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar.desktop .top .logo {
+  max-width: 6em;
+}
+
+.nav-bar.desktop .top .top-nav-list {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 1em;
+  font-size: 0.8rem;
+}
+
+.nav-bar.desktop .top .top-nav-list li {
+  padding-right: 1em;
+}
+
+.nav-bar.desktop .bottom .bottom-nav-list li form fieldset {
+  border: 0;
+}
+.nav-bar.desktop .bottom .bottom-nav-list li form fieldset legend {
+  font-size: 0.7rem;
+}
+
+.nav-bar.desktop .bottom .bottom-nav-list li form label {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.nav-bar.desktop .bottom .bottom-nav-list li form label img {
+  width: 10px;
+  margin-left: 1em;
+}
+.nav-bar.desktop .bottom .bottom-nav-list li form label input {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-bottom: 1px dashed;
+  font-family: "EB Garamond", serif;
+}
+
+.nav-bar.desktop .bottom .bottom-nav-list li form label input::placeholder {
+  font-style: italic;
+}
+
+.nav-bar.desktop .top .top-nav-list li:not(:last-of-type) {
+  border-right: 1px solid black;
+}
+
+.nav-bar.desktop .top .top-nav-list li a {
+  text-decoration: none;
+  color: #8c7256;
+}
+
+.nav-bar.desktop .top .top-nav-list li a:hover {
+  text-decoration: underline;
+}
+
+.nav-bar.desktop .bottom {
+  width: 100%;
+}
+
+.nav-bar.desktop .bottom .bottom-nav-list {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 2em;
+}
+
+.nav-bar.desktop .bottom .bottom-nav-list li a {
+  text-decoration: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar.desktop .bottom .bottom-nav-list li a span:first-of-type {
+  font-family: "EB Garamond", serif;
+  color: #3f3f3f;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.nav-bar.desktop .bottom .bottom-nav-list li a span:last-of-type {
+  color: #3f3f3f;
+  font-size: 0.8rem;
+}
+
+.nav-bar.desktop .bottom .bottom-nav-list li a:hover > span:first-of-type {
+  color: crimson;
+  transition: 0.3s;
 }
 
 .nav-bar ul {
@@ -116,7 +217,7 @@ body {
 
 .card-list .card.is-row {
   display: grid;
-  grid-template-columns: 35% auto;
+  grid-template-columns: 1fr;
 }
 
 .card-list .card.is-column {
@@ -149,7 +250,7 @@ body {
 }
 
 .card .background-img#article-2-background {
-  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/horizontal/image-thumb__81227__StandardHorizontalTeaser/OET%20Limoncello%20KwarkTrt%20Teaser%20225x225%2001~-~media--cac93fe4--query.jpg");
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/horizontal/image-thumb__79093__StandardHorizontalTeaser/OET%20Vanille%20Range%20Teaser%20225x225%2001.jpg");
 }
 
 .card .background-img#article-3-background {
@@ -176,7 +277,7 @@ body {
   font-size: 1rem;
 }
 .link:hover {
-  color: black;
+  color: #3f3f3f;
   text-decoration: underline;
 }
 
@@ -242,7 +343,7 @@ footer #teaser-grid ul li a {
   justify-content: center;
   padding: 1em;
   text-decoration: none;
-  color: black;
+  color: #3f3f3f;
 }
 
 footer #teaser-grid ul li a picture img {
@@ -255,7 +356,39 @@ footer #teaser-grid ul li a span {
   margin: 0;
 }
 
+@media screen and (min-width: 320px) {
+  .card-list .card .background-img {
+    width: initial;
+  }
+  .card-list .card.socials .background-img {
+    height: 125px;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  .card-list .card .background-img {
+    width: auto;
+    height: initial;
+  }
+  .card-list .card.is-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media screen and (min-width: 770px) {
+  /* Tablet */
+
+  .nav-bar.mobile {
+    display: none;
+  }
+  .nav-bar.desktop {
+    display: block;
+  }
+
+  .container {
+    max-width: 57em;
+  }
+
   .hero-caroussel {
     display: flex;
   }
@@ -264,7 +397,6 @@ footer #teaser-grid ul li a span {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
   }
-
   .mobile-wide {
     grid-column: 1 / span 2;
   }
