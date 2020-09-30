@@ -54,11 +54,11 @@ Voortganggesprek (met studentassistenten): Eerste ul met kwarktaart proberen als
 
 ### Agenda voor meeting
 
--Mehmet: 9:20-9:35
-Roos: 9:35-9:50
-Mila: 9:50-10:05
-Tensael: 10:05-10:20
-Tom: 10:20-10:25-
+-Roos: 9:20-9:35
+Mila: 9:35-9:50
+Tensael: 9:50-10:05
+Tom: 10:05-10:20
+Mehmet: 10:20-10:25-
 
 ### Verslag van meeting
 
