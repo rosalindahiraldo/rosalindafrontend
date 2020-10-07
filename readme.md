@@ -25,7 +25,11 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Toevoeging van JS -> menu op mobiele versie. Tablet mediaquery toevoegingen en aanpassingen op de homepage
+<img src="images/voortgang3_desktop.png">
+<img src="images/voortgang3_tablet.jpg">
+<img src="images/voortgang3a_mobile.png">
+<img src="images/voortgang3b_mobile.png">
 
 ## Voortgang 2 (week 5)
 

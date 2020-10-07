@@ -17,6 +17,62 @@
   text-decoration: none;
 }
 
+.nav-bar.mobile .top {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-bar.mobile .top ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar.mobile .top ul li {
+  flex: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar.mobile .top ul li:first-of-type {
+  justify-content: flex-start;
+  padding-left: 1rem;
+}
+.nav-bar.mobile .top ul li:last-of-type {
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.nav-bar.mobile .foldout {
+  transform: translateY(-300px);
+  background-color: white;
+  transition: 0.3s;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-bar.mobile .foldout.open {
+  transform: translateY(53px);
+  transition: 0.3s;
+}
+
+.nav-bar.mobile .foldout ul {
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-bar.mobile .foldout ul li {
+  text-align: left;
+  padding: 8px 18px;
+}
+
 .nav-bar.desktop {
   display: none;
   padding-bottom: 1em;
@@ -25,6 +81,7 @@
 .nav-bar.desktop .top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-bar.desktop .top .logo {
@@ -36,10 +93,17 @@
   grid-template-columns: repeat(6, auto);
   grid-gap: 1em;
   font-size: 0.8rem;
+  list-style: none;
+  padding-left: 0;
 }
 
 .nav-bar.desktop .top .top-nav-list li {
   padding-right: 1em;
+}
+
+.nav-bar.desktop .bottom .bottom-nav-list {
+  list-style: none;
+  padding-left: 0;
 }
 
 .nav-bar.desktop .bottom .bottom-nav-list li form fieldset {
@@ -63,6 +127,7 @@
   padding: 5px;
   border-bottom: 1px dashed;
   font-family: "EB Garamond", serif;
+  margin-left: -8px;
 }
 
 .nav-bar.desktop .bottom .bottom-nav-list li form label input::placeholder {
@@ -117,30 +182,6 @@
   transition: 0.3s;
 }
 
-.nav-bar ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-bar ul li {
-  flex: 33%;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-bar ul li:first-of-type {
-  justify-content: flex-start;
-  padding-left: 1rem;
-}
-.nav-bar ul li:last-of-type {
-  justify-content: flex-end;
-  padding-right: 1rem;
-}
-
 .menu-link img {
   height: 100%;
   max-height: 20px;
@@ -177,7 +218,7 @@ body {
 #hero .hero-background {
   height: 300px;
   width: 100%;
-  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/backgrounds/image-thumb__14126__BackgroundImage/367791~-~media--36d9dbc4--query.jpeg");
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/backgrounds/image-thumb__14126__BackgroundImage/367791.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px center;
@@ -190,10 +231,9 @@ body {
 #hero .hero-caroussel .caroussel-image {
   height: 300px;
   width: 100%;
-  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/hero/image-thumb__87678__HeroTeaser/OET%20YIP%20HeroTeaser%201928x728%2002~-~media--cac93fe4--query.jpg");
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/hero/image-thumb__89424__HeroTeaser/babymixen%20blue%20pink%20heroteaser%201928x728%2001_1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
 }
 #hero .hero-caroussel .caroussel-content {
   background: white;
@@ -254,7 +294,7 @@ body {
 }
 
 .card .background-img#article-3-background {
-  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/horizontal/image-thumb__81227__StandardHorizontalTeaser/OET%20Limoncello%20KwarkTrt%20Teaser%20225x225%2001~-~media--cac93fe4--query.jpg");
+  background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/horizontal/image-thumb__87460__StandardHorizontalTeaser/contenttegel%20brownies%20teaser.jpg");
 }
 .card .background-img#article-4-background {
   background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/hero/image-thumb__87808__HeroTeaser/OET%20PizzaNews%20HeroTeaser%201928x728%2001.jpg");
@@ -375,14 +415,17 @@ footer #teaser-grid ul li a span {
   }
 }
 
-@media screen and (min-width: 770px) {
-  /* Tablet */
-
+/* Tablet */
+@media screen and (min-width: 760px) {
   .nav-bar.mobile {
     display: none;
   }
   .nav-bar.desktop {
     display: block;
+  }
+
+  .nav-bar.desktop .bottom .bottom-nav-list li a span:last-of-type {
+    display: none;
   }
 
   .container {
@@ -392,6 +435,23 @@ footer #teaser-grid ul li a span {
   .hero-caroussel {
     display: flex;
   }
+
+  .hero-caroussel .caroussel-image {
+    display: none;
+  }
+
+  #hero .hero-caroussel .caroussel-content {
+    background-color: transparent;
+    background-image: url("https://www.oetker.nl/dr-oetker-cms/oetker.nl/teasers/hero/image-thumb__89424__HeroTeaser/babymixen%20blue%20pink%20heroteaser%201928x728%2001_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #hero .hero-caroussel .caroussel-content article {
+    margin-left: 60%;
+    color: white;
+  }
+
   .card-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -399,5 +459,12 @@ footer #teaser-grid ul li a span {
   }
   .mobile-wide {
     grid-column: 1 / span 2;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .nav-bar.desktop .bottom .bottom-nav-list li a span:last-of-type {
+    display: block;
   }
 }
