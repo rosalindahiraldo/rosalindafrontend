@@ -13,11 +13,12 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 1. https://css-tricks.com/almanac/
 2. css - https://www.youtube.com/c/JesseShowalter/
-3. -...-
+3. CSS tools - https://www.cssmatic.com/box-shadow
+4. Traversy Media tutorials https://www.youtube.com/user/TechGuyWeb
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Dit ging goed: Eenmaal grid te leren ging het een stuk makkelijker met het plaatsen van articles. Lastige website om na te maken omdat de opbouw van sommige containers
 
 **Screenshot(s):**
 
@@ -52,9 +53,6 @@ Voortganggesprek (met studentassistenten): Eerste ul met kwarktaart proberen als
 -Lastig: inkomen met CSS, af en toe moeite met flexbox en grid. JS nog nieet aan begonnen omdat er veel moest gebeuren tijdens de styling.-
 -Goed: HTML en na veel tutotials volgen over CSS ging het beter en had ik flexbox en grid ook onder de knie.-
 -Jquery's toevoegen-
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
 
 ### Agenda voor meeting
 
@@ -66,7 +64,9 @@ Mehmet: 10:20-10:25-
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-Eerste ul met kwarktaart proberen als background image zodat het plaatje gaat meeschalen.
+
+Microinteractie toevoegen aan het hamburger menuutje -
 
 ## Intake (week 1)
 
