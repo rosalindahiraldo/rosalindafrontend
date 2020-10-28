@@ -20,9 +20,12 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 Dit ging goed: Eenmaal grid te leren ging het een stuk makkelijker met het plaatsen van articles. Lastige website om na te maken omdat de opbouw van sommige containers
 
-**Screenshot(s):**
+**Screenshot(s) eindresultaat:**
 
--screenshot(s) van je eindresultaat-
+<img src="images/eind_1epagina_mobiel.png">
+<img src="images/eind_1epagina_desktop.png">
+<img src="images/eind_2epagina_mobiel.png">
+<img src="images/eind_2epagina_desktop.png">
 
 ## Voortgang 3 (week 6)
 
