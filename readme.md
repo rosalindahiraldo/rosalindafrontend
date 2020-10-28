@@ -18,7 +18,8 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 
 ## Eindgesprek (week 7/8)
 
-Dit ging goed: Eenmaal grid te leren ging het een stuk makkelijker met het plaatsen van articles. Lastige website om na te maken omdat de opbouw van sommige containers
+Dit ging goed: Eenmaal grid te leren ging het een stuk makkelijker met het plaatsen van articles. Lastige website om na te maken omdat de opbouw van sommige containers. Met Flexbox moest ik veel meer oefenen dan normaal. Het plaatsen van articles duurde wat langer dan verwacht. Mediaqueries had ik snel door toen ik eenmaal de "min-width" en "max-width" door had.
+Dit vond ik lastig: JavaScript toevoegen (foldout) heeft veel tijd gekost omdat mijn JS kennis wat minder was.
 
 **Screenshot(s) eindresultaat:**
 
