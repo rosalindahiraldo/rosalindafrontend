@@ -15,11 +15,13 @@ https://rosalindahiraldo.github.io/rosalindafrontend/
 2. css - https://www.youtube.com/c/JesseShowalter/
 3. CSS tools - https://www.cssmatic.com/box-shadow
 4. Traversy Media tutorials https://www.youtube.com/user/TechGuyWeb
+5. https://robinroelofsen.nl/responsive-websites-media-queries
+6. https://flexboxfroggy.com/
 
 ## Eindgesprek (week 7/8)
 
-Dit ging goed: Eenmaal grid te leren ging het een stuk makkelijker met het plaatsen van articles. Lastige website om na te maken omdat de opbouw van sommige containers. Met Flexbox moest ik veel meer oefenen dan normaal. Het plaatsen van articles duurde wat langer dan verwacht. Mediaqueries had ik snel door toen ik eenmaal de "min-width" en "max-width" door had.
-Dit vond ik lastig: JavaScript toevoegen (foldout) heeft veel tijd gekost omdat mijn JS kennis wat minder was.
+Dit ging goed: - Eenmaal grid te leren ging het een stuk makkelijker met het plaatsen van articles. - Lastige website om na te maken omdat de opbouw van sommige containers. - Met Flexbox moest ik veel meer oefenen dan normaal. - Het plaatsen van articles duurde wat langer dan verwacht. - Mediaqueries had ik snel door toen ik eenmaal de "min-width" en "max-width" door had. </br>
+Dit vond ik lastig: - JavaScript toevoegen (foldout) heeft veel tijd gekost omdat mijn JS kennis wat minder was. - Plaatsen van foto's in containers op de eerste pagina. Op de officiele website van Dr. Oetker was de plaatsing heel vreemd en heb ik dit anders getweaked op mijn eigen website. - Positioneren van elementen zoals tekst op foto's.
 
 **Screenshot(s) eindresultaat:**
 
